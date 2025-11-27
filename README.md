@@ -45,7 +45,19 @@ This project is beginner-friendly and suitable for interviews, assignments, and 
 ---
 
 ## 🛠 Tech Stack
+| Technology | Purpose |
+|-----------|---------|
+| Spring Boot | Main backend framework |
+| Spring Web | REST APIs |
+| Spring Data JPA | ORM / DB access |
+| H2 Database | Lightweight in-memory DB |
+| Maven | Build tool |
+| Java 17 | Programming language |
+| Scheduler | Automated background tasks |
 
+---
+
+## Project Structure
 ```
 src/main/java/com/example/healthinsurance
 │
