@@ -46,38 +46,41 @@ This project is beginner-friendly and suitable for interviews, assignments, and 
 
 ## 🛠 Tech Stack
 
-src/main/java/com/example/healthinsurance/
-  controller/
-    AuthController.java
-    WalletController.java
-    PlanController.java
-    PolicyController.java
-    ClaimController.java
+```
+src/main/java/com/example/healthinsurance
+│
+├── controller/
+│   ├── AuthController.java
+│   ├── WalletController.java
+│   ├── PlanController.java
+│   ├── PolicyController.java
+│   └── ClaimController.java
+│
+├── entity/
+│   ├── User.java
+│   ├── Plan.java
+│   ├── Policy.java
+│   └── Claim.java
+│
+├── service/
+│   ├── UserService.java
+│   ├── PlanService.java
+│   ├── PolicyService.java
+│   └── ClaimService.java
+│
+├── repository/
+│   ├── UserRepository.java
+│   ├── PlanRepository.java
+│   ├── PolicyRepository.java
+│   └── ClaimRepository.java
+│
+├── scheduler/
+│   ├── PolicyScheduler.java
+│   └── ClaimScheduler.java
+│
+└── HealthInsuranceApplication.java
+```
 
-  entity/
-    User.java
-    Plan.java
-    Policy.java
-    Claim.java
 
-  service/
-    UserService.java
-    PlanService.java
-    PolicyService.java
-    ClaimService.java
-
-  repository/
-    UserRepository.java
-    PlanRepository.java
-    PolicyRepository.java
-    ClaimRepository.java
-
-  scheduler/
-    PolicyScheduler.java
-    ClaimScheduler.java
-
-  HealthInsuranceApplication.java
-
-
---
+---
 
